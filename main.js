@@ -56,7 +56,7 @@ function draw(){
                stroke(r,g,b)
                rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height)
                }
-               if(objects[i].label != "person"){
+               else{
                     document.getElementById("presence").innerHTML = "BABY NOT DETECTED"
                     alarm.play()
                }
